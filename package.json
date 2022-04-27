@@ -2,7 +2,7 @@
   "name": "vscode-vue-ts-snippets",
   "displayName": "Vue/TS Snippets",
   "description": "Simplistic snippets for modern Vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "brofrain",
   "license": "MIT",
   "homepage": "https://github.com/brofrain/vscode-vue-ts-snippets",
@@ -28,7 +28,11 @@
         "path": "./snippets/vue-template.code-snippets"
       },
       {
-        "language": "javascript,typescript",
+        "language": "javascript",
+        "path": "./snippets/vue-api-js.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/vue-api-js.code-snippets"
       },
       {
@@ -36,7 +40,11 @@
         "path": "./snippets/vue-api-ts.code-snippets"
       },
       {
-        "language": "javascript,typescript",
+        "language": "javascript",
+        "path": "./snippets/js.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/js.code-snippets"
       },
       {
