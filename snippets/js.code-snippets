@@ -1,0 +1,121 @@
+{
+  "Object.keys()": {
+    "prefix": "obk",
+    "body": ["Object.keys(${1:object})"],
+    "description": "OBject-Keys"
+  },
+  "Object.values()": {
+    "prefix": "obv",
+    "body": ["Object.values(${1:object})"],
+    "description": "OBject-Values"
+  },
+  "Object.entries()": {
+    "prefix": "obe",
+    "body": ["Object.entries(${1:object})"],
+    "description": "OBject-Entries"
+  },
+  "Object.fromEntries()": {
+    "prefix": "obfe",
+    "body": ["Object.fromEntries(${1:entries})"],
+    "description": "OBject-From-Entries"
+  },
+  "Object.assign()": {
+    "prefix": "oba",
+    "body": ["Object.assign(${1:target}, ${2:source})"],
+    "description": "OBject-Assign"
+  },
+
+  "for (const key in object) { }": {
+    "prefix": "fin",
+    "body": ["for (const ${2:key} in ${1:object}) {", "\t$0", "}"],
+    "description": "For-IN"
+  },
+  "for (const item of array) { }": {
+    "prefix": "fof",
+    "body": ["for (const ${2:item} of ${1:array}) {", "\t$0", "}"],
+    "description": "For-OF"
+  },
+
+  "for (const item of Object.values(object)) { }": {
+    "prefix": "fofv",
+    "body": [
+      "for (const ${2:item} of Object.values(${1:object})) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "For-OF-object-Values"
+  },
+  "for (const [k, v] of Object.entries(object)) { }": {
+    "prefix": "fofe",
+    "body": [
+      "for (const [${2:k}, ${3:v}] of Object.entries(${1:object})) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "For-OF-object-Entries"
+  },
+
+  "() => ": {
+    "prefix": "fn",
+    "body": ["($1) => $0"],
+    "description": "FuNction"
+  },
+  "() => { }": {
+    "prefix": "fnb",
+    "body": ["($1) => {", "\t$0", "}"],
+    "description": "FuNction-with-Body"
+  },
+  "const name = () => ": {
+    "prefix": "nfn",
+    "body": ["const ${1:name} = ($2) => $0"],
+    "description": "Named-FuNction"
+  },
+  "const name = () => { }": {
+    "prefix": "nfnb",
+    "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
+    "description": "Named-FuNction-with-Body"
+  },
+
+  "import { } from \"module\"": {
+    "prefix": "im",
+    "body": ["import { $2 } from \"${1:module}\""],
+    "description": "IMport"
+  },
+  "import module from \"module\"": {
+    "prefix": "imd",
+    "body": ["import ${2:module} from \"${1:module}\""],
+    "description": "IMport-Default"
+  },
+
+  "export ": {
+    "prefix": "ex",
+    "body": ["export $0"],
+    "description": "EXport"
+  },
+  "export default ": {
+    "prefix": "exd",
+    "body": ["export default $0"],
+    "description": "EXport-DEfault"
+  },
+  "export const name = ": {
+    "prefix": "exn",
+    "body": ["export const ${1:name} = $0"],
+    "description": "EXport-Named"
+  },
+
+  "console.log()": {
+    "prefix": "clg",
+    "body": ["console.log(${1:message})"],
+    "description": "Console-LoG"
+  },
+  "console.warn()": {
+    "prefix": "cwa",
+    "body": ["console.warn(${1:message})"],
+    "description": "Console-WArn"
+  },
+  "console.error()": {
+    "prefix": "cer",
+    "body": ["console.error(${1:message})"],
+    "description": "Console-ERror"
+  }
+}

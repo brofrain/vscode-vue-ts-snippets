@@ -1,0 +1,55 @@
+{
+  "name": "vue-ts-snippets",
+  "displayName": "Vue/TS Snippets",
+  "description": "Simplistic snippets for modern Vue",
+  "version": "0.0.1",
+  "publisher": "brofrain",
+  "license": "MIT",
+  "homepage": "https://github.com/brofrain/vscode-vue-ts-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brofrain/vscode-vue-ts-snippets"
+  },
+  "engines": {
+    "pnpm": "^6.32.0",
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue-sfc.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-template.code-snippets"
+      },
+      {
+        "language": "javascript,typescript",
+        "path": "./snippets/vue-api-js.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-api-ts.code-snippets"
+      },
+      {
+        "language": "javascript,typescript",
+        "path": "./snippets/js.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "release": "vsce publish"
+  },
+  "devDependencies": {
+    "pnpm": "^6.32.11",
+    "vsce": "^2.7.0"
+  }
+}

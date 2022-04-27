@@ -1,0 +1,7 @@
+{
+  "Record<> ": {
+    "prefix": "re",
+    "body": ["Record<${1:string}, ${2:string}>"],
+    "description": "REcord"
+  }
+}
