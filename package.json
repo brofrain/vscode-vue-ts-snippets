@@ -29,11 +29,15 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/vue-api-common.code-snippets"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/vue-api-js.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/vue-api-js.code-snippets"
+        "path": "./snippets/vue-api-common.code-snippets"
       },
       {
         "language": "typescript",
@@ -41,11 +45,11 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/js.code-snippets"
+        "path": "./snippets/common.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/js.code-snippets"
+        "path": "./snippets/common.code-snippets"
       },
       {
         "language": "typescript",

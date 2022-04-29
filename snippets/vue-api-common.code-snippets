@@ -1,0 +1,70 @@
+{
+  "ref()": {
+    "prefix": "vr",
+    "body": ["ref($1)"],
+    "description": "Ref"
+  },
+  "const name = ref()": {
+    "prefix": "vnr",
+    "body": ["const ${1:name} = ref($2)"],
+    "description": "Named-Ref"
+  },
+
+  "$ref()": {
+    "prefix": "$r",
+    "body": ["\\$ref($1)"],
+    "description": "$macro-Ref"
+  },
+  "const name = $ref()": {
+    "prefix": "$nr",
+    "body": ["const ${1:name} = \\$ref($2)"],
+    "description": "$macro-Named-Ref"
+  },
+  "let name = $ref()": {
+    "prefix": "$lnr",
+    "body": ["let ${1:name} = \\$ref($2)"],
+    "description": "$macro-Let-Named-Ref"
+  },
+
+  "computed(() => )": {
+    "prefix": "vc",
+    "body": ["computed(() => $1)"],
+    "description": "Computed"
+  },
+  "computed(() => { })": {
+    "prefix": "vcb",
+    "body": ["computed(() => {", "\t$0", "})"],
+    "description": "Computed-with-Body"
+  },
+  "const name = computed(() => )": {
+    "prefix": "vnc",
+    "body": ["const ${1:name} = computed(() => $2)"],
+    "description": "Named-Computed"
+  },
+  "const name = computed(() => { })": {
+    "prefix": "vncb",
+    "body": ["const ${1:name} = computed(() => {", "\t$0", "})"],
+    "description": "Named-Computed-with-Body"
+  },
+
+  "$computed(() => )": {
+    "prefix": "$c",
+    "body": ["\\$computed(() => $1)"],
+    "description": "$macro-Computed"
+  },
+  "$computed(() => { })": {
+    "prefix": "$cb",
+    "body": ["\\$computed(() => {", "\t$0", "})"],
+    "description": "$macro-Computed-with-Body"
+  },
+  "const name = $computed(() => )": {
+    "prefix": "$nc",
+    "body": ["const ${1:name} = \\$computed(() => $2)"],
+    "description": "$macro-Named-Computed"
+  },
+  "const name = $computed(() => { })": {
+    "prefix": "$ncb",
+    "body": ["const ${1:name} = \\$computed(() => {", "\t$0", "})"],
+    "description": "$macro-Named-Computed-with-Body"
+  }
+}
