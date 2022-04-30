@@ -1,3 +1,4 @@
+// Vue API (JS only)
 {
   "const props = defineProps({ })": {
     "prefix": "vdp",

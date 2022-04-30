@@ -1,3 +1,4 @@
+// TS only
 {
   "async () => new Promise<>((resolve) => { })": {
     "prefix": "afnpt",

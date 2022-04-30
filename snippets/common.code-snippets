@@ -1,3 +1,4 @@
+// Common (JS & TS)
 {
   "if () { }": {
     "prefix": "if",
