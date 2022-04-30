@@ -1,26 +1,37 @@
 {
+  "if () { }": {
+    "prefix": "if",
+    "body": ["if (${1:condition}) {", "\t$0", "}"],
+    "description": "IF"
+  },
+  "if () { } else { }": {
+    "prefix": "ife",
+    "body": ["if (${1:condition}) {", "\t$2", "} else {", "\t$3", "}"],
+    "description": "IF-Else"
+  },
+
   "Object.keys()": {
-    "prefix": "obk",
+    "prefix": "ok",
     "body": ["Object.keys(${1:object})"],
     "description": "OBject-Keys"
   },
   "Object.values()": {
-    "prefix": "obv",
+    "prefix": "ov",
     "body": ["Object.values(${1:object})"],
     "description": "OBject-Values"
   },
   "Object.entries()": {
-    "prefix": "obe",
+    "prefix": "oe",
     "body": ["Object.entries(${1:object})"],
     "description": "OBject-Entries"
   },
   "Object.fromEntries()": {
-    "prefix": "obfe",
+    "prefix": "ofe",
     "body": ["Object.fromEntries(${1:entries})"],
     "description": "OBject-From-Entries"
   },
   "Object.assign()": {
-    "prefix": "oba",
+    "prefix": "oa",
     "body": ["Object.assign(${1:target}, ${2:source})"],
     "description": "OBject-Assign"
   },
@@ -104,18 +115,18 @@
   },
 
   "console.log()": {
-    "prefix": "clg",
+    "prefix": "cl",
     "body": ["console.log(${1:message})"],
-    "description": "Console-LoG"
+    "description": "Console-Log"
   },
   "console.warn()": {
-    "prefix": "cwa",
+    "prefix": "cw",
     "body": ["console.warn(${1:message})"],
-    "description": "Console-WArn"
+    "description": "Console-Warn"
   },
   "console.error()": {
-    "prefix": "cer",
+    "prefix": "ce",
     "body": ["console.error(${1:message})"],
-    "description": "Console-ERror"
+    "description": "Console-Error"
   }
 }

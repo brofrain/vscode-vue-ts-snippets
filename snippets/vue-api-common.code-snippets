@@ -66,5 +66,69 @@
     "prefix": "$ncb",
     "body": ["const ${1:name} = \\$computed(() => {", "\t$0", "})"],
     "description": "$macro-Named-Computed-with-Body"
+  },
+
+  "export const useStore = defineStore(\"store\", () => { })": {
+    "prefix": "vstore",
+    "body": [
+      "import { defineStore } from \"pinia\"",
+      "",
+      "export const use${1:Store} = defineStore(\"${2:store}\", () => {",
+      "\t$0",
+      "",
+      "\treturn { }",
+      "}"
+    ],
+    "description": "pinia-STORE"
+  },
+
+  "(SSR) export const useStore = defineStore(\"store\", () => { })": {
+    "prefix": "vstoress",
+    "body": [
+      "import { acceptHMRUpdate, defineStore } from \"pinia\"",
+      "",
+      "export const use${1:Store} = defineStore(\"${2:store}\", () => {",
+      "\t$0",
+      "",
+      "\treturn { }",
+      "}",
+      "",
+      "if (import.meta.hot) {",
+      "\timport.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));",
+      "}"
+    ],
+    "description": "pinia-STORE-SSr"
+  },
+
+  "($) export const useStore = defineStore(\"store\", () => { })": {
+    "prefix": "$store",
+    "body": [
+      "import { defineStore } from \"pinia\"",
+      "",
+      "export const use${1:Store} = defineStore(\"${2:store}\", () => {",
+      "\t$0",
+      "",
+      "\treturn $$({ })",
+      "}"
+    ],
+    "description": "$macro-pinia-STORE"
+  },
+
+  "($) (SSR) export const useStore = defineStore(\"store\", () => { })": {
+    "prefix": "$storess",
+    "body": [
+      "import { acceptHMRUpdate, defineStore } from \"pinia\"",
+      "",
+      "export const use${1:Store} = defineStore(\"${2:store}\", () => {",
+      "\t$0",
+      "",
+      "\treturn $$({ })",
+      "}",
+      "",
+      "if (import.meta.hot) {",
+      "\timport.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));",
+      "}"
+    ],
+    "description": "$macro-pinia-STORE-SSr"
   }
 }

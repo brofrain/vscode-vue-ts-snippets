@@ -1,6 +1,6 @@
 {
   "const props = defineProps({ })": {
-    "prefix": "dp",
+    "prefix": "vdp",
     "body": ["const props = defineProps({ $1 })"],
     "description": "Define-Props"
   },
@@ -11,7 +11,7 @@
   },
 
   "const emit = defineEmits([])": {
-    "prefix": "de",
+    "prefix": "vde",
     "body": ["const emit = defineEmits([\"${1:event}\"])"],
     "description": "Define-Emits"
   }

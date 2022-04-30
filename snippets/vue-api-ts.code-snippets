@@ -68,12 +68,12 @@
   },
 
   "const props = defineProps<>()": {
-    "prefix": "dp",
+    "prefix": "vdp",
     "body": ["const props = defineProps<${1:Props}>()"],
     "description": "Define-Props"
   },
   "const props = defineProps<{ }>()": {
-    "prefix": "dpb",
+    "prefix": "vdpb",
     "body": ["const props = defineProps<{ $1 }>()"],
     "description": "Define-Props-with-Body"
   },
@@ -111,12 +111,12 @@
   },
 
   "const emit = defineEmits<>()": {
-    "prefix": "de",
+    "prefix": "vde",
     "body": ["const emit = defineEmits<${1:Emits}>()"],
     "description": "Define-Emits"
   },
   "const emit = defineEmits<{ }>()": {
-    "prefix": "deb",
+    "prefix": "vdeb",
     "body": [
       "const emit = defineEmits<{",
       "\t(e: \"${1:event}\", value: ${2:number}): void$3",
@@ -125,7 +125,7 @@
     "description": "Define-Emits-with-Body"
   },
   "const emit = defineEmits<Emits>()": {
-    "prefix": "dei",
+    "prefix": "vdei",
     "body": [
       "interface Emits {",
       "\t(e: \"${1:event}\", value: ${2:number}): void$0",
