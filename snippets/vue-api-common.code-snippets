@@ -68,6 +68,18 @@
     "description": "$macro-Named-Computed-with-Body"
   },
 
+  "return $$()": {
+    "prefix": "$re",
+    "body": ["return $$($0)"],
+    "description": "$macro-REturn"
+  },
+
+  "return $$({ })": {
+    "prefix": "$reb",
+    "body": ["return $$({ $0 })"],
+    "description": "$macro-REturn-with-Body"
+  },
+
   "export const useStore = defineStore(\"store\", () => { })": {
     "prefix": "vstore",
     "body": [

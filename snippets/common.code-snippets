@@ -87,6 +87,53 @@
     "description": "Named-FuNction-with-Body"
   },
 
+  "async () => ": {
+    "prefix": "afn",
+    "body": ["async ($1) => $0"],
+    "description": "Async-FuNction"
+  },
+  "async () => new Promise((resolve) => { })": {
+    "prefix": "afnp",
+    "body": ["async ($1) => new Promise((resolve) => {", "\t$0", "})"],
+    "description": "Async-FuNction-with-Promise"
+  },
+  "async () => { }": {
+    "prefix": "afnb",
+    "body": ["async ($1) => {", "\t$0", "}"],
+    "description": "Async-FuNction-with-Body"
+  },
+  "const name = async () => ": {
+    "prefix": "nafn",
+    "body": ["const ${1:name} = async ($2) => $0"],
+    "description": "Named-Async-FuNction"
+  },
+  "const name = async () => new Promise((resolve) => { })": {
+    "prefix": "nafnp",
+    "body": [
+      "const ${1:name} = async ($2) => new Promise((resolve) => {",
+      "\t$0",
+      "})"
+    ],
+    "description": "Named-Async-FuNction-with-Promise"
+  },
+  "const name = async () => { }": {
+    "prefix": "nafnb",
+    "body": ["const ${1:name} = async ($2) => {", "\t$0", "}"],
+    "description": "Named-Async-FuNction-with-Body"
+  },
+
+  "return ": {
+    "prefix": "re",
+    "body": ["return $0"],
+    "description": "REturn"
+  },
+
+  "return { }": {
+    "prefix": "reb",
+    "body": ["return { $0 }"],
+    "description": "REturn-with-Body"
+  },
+
   "import { } from \"module\"": {
     "prefix": "im",
     "body": ["import { $2 } from \"${1:module}\""],

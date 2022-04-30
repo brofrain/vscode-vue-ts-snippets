@@ -1,4 +1,23 @@
 {
+  "async () => new Promise<>((resolve) => { })": {
+    "prefix": "afnpt",
+    "body": [
+      "async ($1) => new Promise<${2:void}>((resolve) => {",
+      "\t$0",
+      "})"
+    ],
+    "description": "Async-FuNction-with-Promise-and-Type"
+  },
+  "const name = async () => new Promise<>((resolve) => { })": {
+    "prefix": "nafnpt",
+    "body": [
+      "const ${1:name} = async ($2) => new Promise<${3:void}>((resolve) => {",
+      "\t$0",
+      "})"
+    ],
+    "description": "Named-Async-FuNction-with-Promise-and-Type"
+  },
+
   "Record<> ": {
     "prefix": "re",
     "body": ["Record<${1:string}, ${2:string}>"],
