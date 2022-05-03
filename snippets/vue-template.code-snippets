@@ -29,7 +29,7 @@
   },
   "v-model:property=\"\"": {
     "prefix": "vmodn",
-    "body": ["v-model:${1:property}=\"${1:variable}\""],
+    "body": ["v-model:${1:property}=\"${2:variable}\""],
     "description": "V-MODel-Named"
   }
 }
