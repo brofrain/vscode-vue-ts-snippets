@@ -1,3 +1,7 @@
+## v0.0.5
+
+- add snippets
+
 ## v0.0.4
 
 - update snippets (`README.md` is temporarily out of sync)
