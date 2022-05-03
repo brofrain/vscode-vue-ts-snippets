@@ -1,3 +1,8 @@
+## v0.0.6
+
+- fix `vmodn` snippet
+- sync `README.md` with snippets
+
 ## v0.0.5
 
 - add snippets

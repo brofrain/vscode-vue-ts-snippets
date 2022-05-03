@@ -2,7 +2,7 @@
   "name": "vscode-vue-ts-snippets",
   "displayName": "Vue/TS Snippets",
   "description": "Simplistic snippets for modern Vue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "brofrain",
   "license": "MIT",
   "homepage": "https://github.com/brofrain/vscode-vue-ts-snippets",
@@ -11,8 +11,8 @@
     "url": "https://github.com/brofrain/vscode-vue-ts-snippets"
   },
   "engines": {
-    "pnpm": "^6.32.0",
-    "vscode": "^1.66.0"
+    "pnpm": ">=6.32.0",
+    "vscode": ">=1.66.0"
   },
   "categories": [
     "Snippets"
