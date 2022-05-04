@@ -90,7 +90,7 @@
       "\t$0",
       "",
       "\treturn { }",
-      "}"
+      "})"
     ],
     "description": "pinia-STORE"
   },
@@ -104,7 +104,7 @@
       "\t$0",
       "",
       "\treturn { }",
-      "}",
+      "})",
       "",
       "if (import.meta.hot) {",
       "\timport.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));",
@@ -122,7 +122,7 @@
       "\t$0",
       "",
       "\treturn $$({ })",
-      "}"
+      "})"
     ],
     "description": "$macro-pinia-STORE"
   },
@@ -136,7 +136,7 @@
       "\t$0",
       "",
       "\treturn $$({ })",
-      "}",
+      "})",
       "",
       "if (import.meta.hot) {",
       "\timport.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));",

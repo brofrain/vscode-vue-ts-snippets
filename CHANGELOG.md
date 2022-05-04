@@ -1,3 +1,7 @@
+## v0.0.7
+
+- fix `vstore`, `vstoress`, `$store`, `$storess` snippets
+
 ## v0.0.6
 
 - fix `vmodn` snippet

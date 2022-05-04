@@ -1056,7 +1056,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 	$0
 
 	return { }
-}
+})
 ```
 
 </td>
@@ -1082,7 +1082,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 	$0
 
 	return { }
-}
+})
 
 if (import.meta.hot) {
 	import.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));
@@ -1112,7 +1112,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 	$0
 
 	return $$({ })
-}
+})
 ```
 
 </td>
@@ -1138,7 +1138,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 	$0
 
 	return $$({ })
-}
+})
 
 if (import.meta.hot) {
 	import.meta.hot.accept(acceptHMRUpdate(use${1:Store}, import.meta.hot));
