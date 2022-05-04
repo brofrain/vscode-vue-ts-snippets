@@ -11,7 +11,7 @@
     "url": "https://github.com/brofrain/vscode-vue-ts-snippets"
   },
   "engines": {
-    "pnpm": ">=6.32.0",
+    "pnpm": ">=7.0.0",
     "vscode": ">=1.66.0"
   },
   "categories": [
@@ -61,7 +61,7 @@
     "release": "vsce publish"
   },
   "devDependencies": {
-    "pnpm": "^6.32.11",
+    "pnpm": "^7.0.0",
     "vsce": "^2.7.0"
   }
 }
