@@ -20,8 +20,8 @@
   },
 
   "Record<> ": {
-    "prefix": "re",
+    "prefix": "rec",
     "body": ["Record<${1:string}, ${2:string}>"],
-    "description": "REcord"
+    "description": "RECord"
   }
 }

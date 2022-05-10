@@ -1,3 +1,7 @@
+## v0.0.8
+
+- change `Record<>` snippet trigger from `re` to `rec`
+
 ## v0.0.7
 
 - fix `vstore`, `vstoress`, `$store`, `$storess` snippets

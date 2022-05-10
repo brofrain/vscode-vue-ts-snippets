@@ -710,7 +710,7 @@ Named-Async-FuNction-with-Promise-and-Type
 <tr>
 <td>
 
-`re`
+`rec`
 
 </td>
 <td>
@@ -722,7 +722,7 @@ Record<${1:string}, ${2:string}>
 </td>
 <td>
 
-REcord
+RECord
 
 </td>
 </tr>
