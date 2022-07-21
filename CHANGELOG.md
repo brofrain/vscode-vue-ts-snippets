@@ -1,3 +1,8 @@
+## v0.0.9
+
+- change `console.log()` snippet trigger from `cl` to `clg`
+- remove snippets for `console.error()` and `console.warn()`
+
 ## v0.0.8
 
 - change `Record<>` snippet trigger from `re` to `rec`

@@ -72,7 +72,7 @@ Object.keys(${1:object})
 </td>
 <td>
 
-OBject-Keys
+Object-Keys
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Object.values(${1:object})
 </td>
 <td>
 
-OBject-Values
+Object-Values
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Object.entries(${1:object})
 </td>
 <td>
 
-OBject-Entries
+Object-Entries
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Object.fromEntries(${1:entries})
 </td>
 <td>
 
-OBject-From-Entries
+Object-From-Entries
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Object.assign(${1:target}, ${2:source})
 </td>
 <td>
 
-OBject-Assign
+Object-Assign
 
 </td>
 </tr>
@@ -600,7 +600,7 @@ EXport-Named
 <tr>
 <td>
 
-`cl`
+`clg`
 
 </td>
 <td>
@@ -612,47 +612,7 @@ console.log(${1:message})
 </td>
 <td>
 
-Console-Log
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-`cw`
-
-</td>
-<td>
-
-```
-console.warn(${1:message})
-```
-
-</td>
-<td>
-
-Console-Warn
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-`ce`
-
-</td>
-<td>
-
-```
-console.error(${1:message})
-```
-
-</td>
-<td>
-
-Console-Error
+Console-LoG
 
 </td>
 </tr>

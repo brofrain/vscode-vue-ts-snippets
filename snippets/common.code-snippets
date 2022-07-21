@@ -14,27 +14,27 @@
   "Object.keys()": {
     "prefix": "ok",
     "body": ["Object.keys(${1:object})"],
-    "description": "OBject-Keys"
+    "description": "Object-Keys"
   },
   "Object.values()": {
     "prefix": "ov",
     "body": ["Object.values(${1:object})"],
-    "description": "OBject-Values"
+    "description": "Object-Values"
   },
   "Object.entries()": {
     "prefix": "oe",
     "body": ["Object.entries(${1:object})"],
-    "description": "OBject-Entries"
+    "description": "Object-Entries"
   },
   "Object.fromEntries()": {
     "prefix": "ofe",
     "body": ["Object.fromEntries(${1:entries})"],
-    "description": "OBject-From-Entries"
+    "description": "Object-From-Entries"
   },
   "Object.assign()": {
     "prefix": "oa",
     "body": ["Object.assign(${1:target}, ${2:source})"],
-    "description": "OBject-Assign"
+    "description": "Object-Assign"
   },
 
   "for (const key in object) { }": {
@@ -163,18 +163,8 @@
   },
 
   "console.log()": {
-    "prefix": "cl",
+    "prefix": "clg",
     "body": ["console.log(${1:message})"],
-    "description": "Console-Log"
-  },
-  "console.warn()": {
-    "prefix": "cw",
-    "body": ["console.warn(${1:message})"],
-    "description": "Console-Warn"
-  },
-  "console.error()": {
-    "prefix": "ce",
-    "body": ["console.error(${1:message})"],
-    "description": "Console-Error"
+    "description": "Console-LoG"
   }
 }
