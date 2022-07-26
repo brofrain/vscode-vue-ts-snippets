@@ -61,7 +61,7 @@
     "release": "vsce publish"
   },
   "devDependencies": {
-    "pnpm": "^7.0.0",
-    "vsce": "^2.7.0"
+    "pnpm": "^7.6.0",
+    "vsce": "^2.10.0"
   }
 }
