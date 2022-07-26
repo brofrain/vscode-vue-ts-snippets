@@ -1,7 +1,7 @@
 // Vue API (JS only)
 {
   "const props = defineProps({ })": {
-    "prefix": "vdp",
+    "prefix": ".dp",
     "body": ["const props = defineProps({ $1 })"],
     "description": "Define-Props"
   },
@@ -12,7 +12,7 @@
   },
 
   "const emit = defineEmits([])": {
-    "prefix": "vde",
+    "prefix": ".de",
     "body": ["const emit = defineEmits([\"${1:event}\"])"],
     "description": "Define-Emits"
   }

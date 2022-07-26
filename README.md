@@ -14,7 +14,7 @@ Simplistic snippets for modern Vue+TypeScript development ([Reactivity Transform
 <tr>
 <td>
 
-`if`
+`.if`
 
 </td>
 <td>
@@ -36,7 +36,7 @@ IF
 <tr>
 <td>
 
-`ife`
+`.ife`
 
 </td>
 <td>
@@ -60,7 +60,7 @@ IF-Else
 <tr>
 <td>
 
-`ok`
+`.ok`
 
 </td>
 <td>
@@ -80,7 +80,7 @@ Object-Keys
 <tr>
 <td>
 
-`ov`
+`.ov`
 
 </td>
 <td>
@@ -100,7 +100,7 @@ Object-Values
 <tr>
 <td>
 
-`oe`
+`.oe`
 
 </td>
 <td>
@@ -120,7 +120,7 @@ Object-Entries
 <tr>
 <td>
 
-`ofe`
+`.ofe`
 
 </td>
 <td>
@@ -140,7 +140,7 @@ Object-From-Entries
 <tr>
 <td>
 
-`oa`
+`.oa`
 
 </td>
 <td>
@@ -160,7 +160,7 @@ Object-Assign
 <tr>
 <td>
 
-`fin`
+`.fin`
 
 </td>
 <td>
@@ -182,7 +182,7 @@ For-IN
 <tr>
 <td>
 
-`fof`
+`.fof`
 
 </td>
 <td>
@@ -204,7 +204,7 @@ For-OF
 <tr>
 <td>
 
-`fofv`
+`.fofv`
 
 </td>
 <td>
@@ -226,7 +226,7 @@ For-OF-object-Values
 <tr>
 <td>
 
-`fofe`
+`.fofe`
 
 </td>
 <td>
@@ -248,7 +248,7 @@ For-OF-object-Entries
 <tr>
 <td>
 
-`fn`
+`.f`
 
 </td>
 <td>
@@ -260,7 +260,7 @@ For-OF-object-Entries
 </td>
 <td>
 
-FuNction
+Function
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ FuNction
 <tr>
 <td>
 
-`fnb`
+`.fb`
 
 </td>
 <td>
@@ -282,7 +282,7 @@ FuNction
 </td>
 <td>
 
-FuNction-with-Body
+Function-with-Body
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ FuNction-with-Body
 <tr>
 <td>
 
-`nfn`
+`.nf`
 
 </td>
 <td>
@@ -302,7 +302,7 @@ const ${1:name} = ($2) => $0
 </td>
 <td>
 
-Named-FuNction
+Named-Function
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ Named-FuNction
 <tr>
 <td>
 
-`nfnb`
+`.nfb`
 
 </td>
 <td>
@@ -324,7 +324,7 @@ const ${1:name} = ($2) => {
 </td>
 <td>
 
-Named-FuNction-with-Body
+Named-Function-with-Body
 
 </td>
 </tr>
@@ -332,7 +332,7 @@ Named-FuNction-with-Body
 <tr>
 <td>
 
-`afn`
+`.af`
 
 </td>
 <td>
@@ -344,7 +344,7 @@ async ($1) => $0
 </td>
 <td>
 
-Async-FuNction
+Async-Function
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ Async-FuNction
 <tr>
 <td>
 
-`afnp`
+`.afp`
 
 </td>
 <td>
@@ -366,7 +366,7 @@ async ($1) => new Promise((resolve) => {
 </td>
 <td>
 
-Async-FuNction-with-Promise
+Async-Function-with-Promise
 
 </td>
 </tr>
@@ -374,7 +374,7 @@ Async-FuNction-with-Promise
 <tr>
 <td>
 
-`afnb`
+`.afb`
 
 </td>
 <td>
@@ -388,7 +388,7 @@ async ($1) => {
 </td>
 <td>
 
-Async-FuNction-with-Body
+Async-Function-with-Body
 
 </td>
 </tr>
@@ -396,7 +396,7 @@ Async-FuNction-with-Body
 <tr>
 <td>
 
-`nafn`
+`.naf`
 
 </td>
 <td>
@@ -408,7 +408,7 @@ const ${1:name} = async ($2) => $0
 </td>
 <td>
 
-Named-Async-FuNction
+Named-Async-Function
 
 </td>
 </tr>
@@ -416,7 +416,7 @@ Named-Async-FuNction
 <tr>
 <td>
 
-`nafnp`
+`.nafp`
 
 </td>
 <td>
@@ -430,7 +430,7 @@ const ${1:name} = async ($2) => new Promise((resolve) => {
 </td>
 <td>
 
-Named-Async-FuNction-with-Promise
+Named-Async-Function-with-Promise
 
 </td>
 </tr>
@@ -438,7 +438,7 @@ Named-Async-FuNction-with-Promise
 <tr>
 <td>
 
-`nafnb`
+`.nafb`
 
 </td>
 <td>
@@ -452,7 +452,7 @@ const ${1:name} = async ($2) => {
 </td>
 <td>
 
-Named-Async-FuNction-with-Body
+Named-Async-Function-with-Body
 
 </td>
 </tr>
@@ -460,7 +460,7 @@ Named-Async-FuNction-with-Body
 <tr>
 <td>
 
-`re`
+`.re`
 
 </td>
 <td>
@@ -480,7 +480,7 @@ REturn
 <tr>
 <td>
 
-`reb`
+`.reb`
 
 </td>
 <td>
@@ -500,7 +500,7 @@ REturn-with-Body
 <tr>
 <td>
 
-`im`
+`.im`
 
 </td>
 <td>
@@ -520,7 +520,7 @@ IMport
 <tr>
 <td>
 
-`imd`
+`.imd`
 
 </td>
 <td>
@@ -540,7 +540,7 @@ IMport-Default
 <tr>
 <td>
 
-`ex`
+`.ex`
 
 </td>
 <td>
@@ -560,7 +560,7 @@ EXport
 <tr>
 <td>
 
-`exd`
+`.exd`
 
 </td>
 <td>
@@ -580,7 +580,7 @@ EXport-DEfault
 <tr>
 <td>
 
-`exn`
+`.exn`
 
 </td>
 <td>
@@ -600,7 +600,7 @@ EXport-Named
 <tr>
 <td>
 
-`clg`
+`.cl`
 
 </td>
 <td>
@@ -626,7 +626,7 @@ Console-LoG
 <tr>
 <td>
 
-`afnpt`
+`.afpt`
 
 </td>
 <td>
@@ -640,7 +640,7 @@ async ($1) => new Promise<${2:void}>((resolve) => {
 </td>
 <td>
 
-Async-FuNction-with-Promise-and-Type
+Async-Function-with-Promise-and-Type
 
 </td>
 </tr>
@@ -648,7 +648,7 @@ Async-FuNction-with-Promise-and-Type
 <tr>
 <td>
 
-`nafnpt`
+`.nafpt`
 
 </td>
 <td>
@@ -662,7 +662,7 @@ const ${1:name} = async ($2) => new Promise<${3:void}>((resolve) => {
 </td>
 <td>
 
-Named-Async-FuNction-with-Promise-and-Type
+Named-Async-Function-with-Promise-and-Type
 
 </td>
 </tr>
@@ -670,7 +670,7 @@ Named-Async-FuNction-with-Promise-and-Type
 <tr>
 <td>
 
-`rec`
+`.rec`
 
 </td>
 <td>
@@ -696,7 +696,7 @@ RECord
 <tr>
 <td>
 
-`vr`
+`.r`
 
 </td>
 <td>
@@ -716,7 +716,7 @@ Ref
 <tr>
 <td>
 
-`vnr`
+`.nr`
 
 </td>
 <td>
@@ -796,7 +796,7 @@ $macro-Let-Named-Ref
 <tr>
 <td>
 
-`vc`
+`.c`
 
 </td>
 <td>
@@ -816,7 +816,7 @@ Computed
 <tr>
 <td>
 
-`vcb`
+`.cb`
 
 </td>
 <td>
@@ -838,7 +838,7 @@ Computed-with-Body
 <tr>
 <td>
 
-`vnc`
+`.nc`
 
 </td>
 <td>
@@ -858,7 +858,7 @@ Named-Computed
 <tr>
 <td>
 
-`vncb`
+`.ncb`
 
 </td>
 <td>
@@ -1004,7 +1004,7 @@ $macro-REturn-with-Body
 <tr>
 <td>
 
-`vstore`
+`.pstore`
 
 </td>
 <td>
@@ -1022,7 +1022,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 </td>
 <td>
 
-pinia-STORE
+Pinia-STORE
 
 </td>
 </tr>
@@ -1030,7 +1030,7 @@ pinia-STORE
 <tr>
 <td>
 
-`vstoress`
+`.pstoress`
 
 </td>
 <td>
@@ -1052,7 +1052,7 @@ if (import.meta.hot) {
 </td>
 <td>
 
-pinia-STORE-SSr
+Pinia-STORE-SSr
 
 </td>
 </tr>
@@ -1060,7 +1060,7 @@ pinia-STORE-SSr
 <tr>
 <td>
 
-`$store`
+`$pstore`
 
 </td>
 <td>
@@ -1078,7 +1078,7 @@ export const use${1:Store} = defineStore("${2:store}", () => {
 </td>
 <td>
 
-$macro-pinia-STORE
+$macro-Pinia-STORE
 
 </td>
 </tr>
@@ -1086,7 +1086,7 @@ $macro-pinia-STORE
 <tr>
 <td>
 
-`$storess`
+`$pstoress`
 
 </td>
 <td>
@@ -1108,7 +1108,7 @@ if (import.meta.hot) {
 </td>
 <td>
 
-$macro-pinia-STORE-SSr
+$macro-Pinia-STORE-SSr
 
 </td>
 </tr>
@@ -1122,7 +1122,7 @@ $macro-pinia-STORE-SSr
 <tr>
 <td>
 
-`vdp`
+`.dp`
 
 </td>
 <td>
@@ -1162,7 +1162,7 @@ $macro-Define-Props
 <tr>
 <td>
 
-`vde`
+`.de`
 
 </td>
 <td>
@@ -1188,7 +1188,7 @@ Define-Emits
 <tr>
 <td>
 
-`vrt`
+`.rt`
 
 </td>
 <td>
@@ -1208,7 +1208,7 @@ Ref-with-Type
 <tr>
 <td>
 
-`vnrt`
+`.nrt`
 
 </td>
 <td>
@@ -1288,7 +1288,7 @@ $macro-Let-Named-Ref-with-Type
 <tr>
 <td>
 
-`vct`
+`.ct`
 
 </td>
 <td>
@@ -1308,7 +1308,7 @@ Computed-with-Type
 <tr>
 <td>
 
-`vcbt`
+`.cbt`
 
 </td>
 <td>
@@ -1330,7 +1330,7 @@ Computed-with-Body-and-Type
 <tr>
 <td>
 
-`vnct`
+`.nct`
 
 </td>
 <td>
@@ -1350,7 +1350,7 @@ Named-Computed-with-Type
 <tr>
 <td>
 
-`vncbt`
+`.ncbt`
 
 </td>
 <td>
@@ -1456,7 +1456,7 @@ $macro-Named-Computed-with-Body-and-Type
 <tr>
 <td>
 
-`vdp`
+`.dp`
 
 </td>
 <td>
@@ -1476,7 +1476,7 @@ Define-Props
 <tr>
 <td>
 
-`vdpb`
+`.dpb`
 
 </td>
 <td>
@@ -1496,7 +1496,7 @@ Define-Props-with-Body
 <tr>
 <td>
 
-`dpi`
+`.dpi`
 
 </td>
 <td>
@@ -1584,7 +1584,7 @@ $macro-Define-Props-with-Interface
 <tr>
 <td>
 
-`vde`
+`.de`
 
 </td>
 <td>
@@ -1604,7 +1604,7 @@ Define-Emits
 <tr>
 <td>
 
-`vdeb`
+`.deb`
 
 </td>
 <td>
@@ -1626,7 +1626,7 @@ Define-Emits-with-Body
 <tr>
 <td>
 
-`vdei`
+`.dei`
 
 </td>
 <td>
@@ -1656,7 +1656,7 @@ Define-Emits-with-Interface
 <tr>
 <td>
 
-`vjs`
+`.vjs`
 
 </td>
 <td>
@@ -1673,7 +1673,7 @@ $0
 <tr>
 <td>
 
-`vts`
+`.vts`
 
 </td>
 <td>
@@ -1690,7 +1690,7 @@ $0
 <tr>
 <td>
 
-`vtp`
+`.vtp`
 
 </td>
 <td>
@@ -1707,7 +1707,7 @@ $0
 <tr>
 <td>
 
-`vcss`
+`.vcss`
 
 </td>
 <td>
@@ -1724,7 +1724,7 @@ $0
 <tr>
 <td>
 
-`vscss`
+`.vscss`
 
 </td>
 <td>
@@ -1741,7 +1741,7 @@ $0
 <tr>
 <td>
 
-`vroute`
+`.vroute`
 
 </td>
 <td>
@@ -1764,7 +1764,7 @@ $0
 <tr>
 <td>
 
-`vtp`
+`.vtp`
 
 </td>
 <td>
@@ -1786,7 +1786,7 @@ TemPlate
 <tr>
 <td>
 
-`vfor`
+`.vfor`
 
 </td>
 <td>
@@ -1806,7 +1806,7 @@ v-for="${2:item} in ${1:array}" :key="${3:item}"
 <tr>
 <td>
 
-`vfori`
+`.vfor`
 
 </td>
 <td>
@@ -1826,7 +1826,7 @@ v-for="(${2:item}, ${3:i}) in ${1:array}" :key="${4:i}"
 <tr>
 <td>
 
-`vif`
+`.vif`
 
 </td>
 <td>
@@ -1846,7 +1846,7 @@ v-if="${1:condition}"
 <tr>
 <td>
 
-`vshow`
+`.vshow`
 
 </td>
 <td>
@@ -1866,7 +1866,7 @@ v-show="${1:condition}"
 <tr>
 <td>
 
-`vmod`
+`.vmod`
 
 </td>
 <td>
@@ -1886,7 +1886,7 @@ V-MODel
 <tr>
 <td>
 
-`vmodn`
+`.vmodn`
 
 </td>
 <td>

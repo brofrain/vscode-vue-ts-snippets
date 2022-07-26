@@ -1,55 +1,55 @@
 // Common (JS & TS)
 {
   "if () { }": {
-    "prefix": "if",
+    "prefix": ".if",
     "body": ["if (${1:condition}) {", "\t$0", "}"],
     "description": "IF"
   },
   "if () { } else { }": {
-    "prefix": "ife",
+    "prefix": ".ife",
     "body": ["if (${1:condition}) {", "\t$2", "} else {", "\t$3", "}"],
     "description": "IF-Else"
   },
 
   "Object.keys()": {
-    "prefix": "ok",
+    "prefix": ".ok",
     "body": ["Object.keys(${1:object})"],
     "description": "Object-Keys"
   },
   "Object.values()": {
-    "prefix": "ov",
+    "prefix": ".ov",
     "body": ["Object.values(${1:object})"],
     "description": "Object-Values"
   },
   "Object.entries()": {
-    "prefix": "oe",
+    "prefix": ".oe",
     "body": ["Object.entries(${1:object})"],
     "description": "Object-Entries"
   },
   "Object.fromEntries()": {
-    "prefix": "ofe",
+    "prefix": ".ofe",
     "body": ["Object.fromEntries(${1:entries})"],
     "description": "Object-From-Entries"
   },
   "Object.assign()": {
-    "prefix": "oa",
+    "prefix": ".oa",
     "body": ["Object.assign(${1:target}, ${2:source})"],
     "description": "Object-Assign"
   },
 
   "for (const key in object) { }": {
-    "prefix": "fin",
+    "prefix": ".fin",
     "body": ["for (const ${2:key} in ${1:object}) {", "\t$0", "}"],
     "description": "For-IN"
   },
   "for (const item of array) { }": {
-    "prefix": "fof",
+    "prefix": ".fof",
     "body": ["for (const ${2:item} of ${1:array}) {", "\t$0", "}"],
     "description": "For-OF"
   },
 
   "for (const item of Object.values(object)) { }": {
-    "prefix": "fofv",
+    "prefix": ".fofv",
     "body": [
       "for (const ${2:item} of Object.values(${1:object})) {",
       "\t$0",
@@ -58,7 +58,7 @@
     "description": "For-OF-object-Values"
   },
   "for (const [k, v] of Object.entries(object)) { }": {
-    "prefix": "fofe",
+    "prefix": ".fofe",
     "body": [
       "for (const [${2:k}, ${3:v}] of Object.entries(${1:object})) {",
       "\t$0",
@@ -68,103 +68,103 @@
   },
 
   "() => ": {
-    "prefix": "fn",
+    "prefix": ".f",
     "body": ["($1) => $0"],
-    "description": "FuNction"
+    "description": "Function"
   },
   "() => { }": {
-    "prefix": "fnb",
+    "prefix": ".fb",
     "body": ["($1) => {", "\t$0", "}"],
-    "description": "FuNction-with-Body"
+    "description": "Function-with-Body"
   },
   "const name = () => ": {
-    "prefix": "nfn",
+    "prefix": ".nf",
     "body": ["const ${1:name} = ($2) => $0"],
-    "description": "Named-FuNction"
+    "description": "Named-Function"
   },
   "const name = () => { }": {
-    "prefix": "nfnb",
+    "prefix": ".nfb",
     "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
-    "description": "Named-FuNction-with-Body"
+    "description": "Named-Function-with-Body"
   },
 
   "async () => ": {
-    "prefix": "afn",
+    "prefix": ".af",
     "body": ["async ($1) => $0"],
-    "description": "Async-FuNction"
+    "description": "Async-Function"
   },
   "async () => new Promise((resolve) => { })": {
-    "prefix": "afnp",
+    "prefix": ".afp",
     "body": ["async ($1) => new Promise((resolve) => {", "\t$0", "})"],
-    "description": "Async-FuNction-with-Promise"
+    "description": "Async-Function-with-Promise"
   },
   "async () => { }": {
-    "prefix": "afnb",
+    "prefix": ".afb",
     "body": ["async ($1) => {", "\t$0", "}"],
-    "description": "Async-FuNction-with-Body"
+    "description": "Async-Function-with-Body"
   },
   "const name = async () => ": {
-    "prefix": "nafn",
+    "prefix": ".naf",
     "body": ["const ${1:name} = async ($2) => $0"],
-    "description": "Named-Async-FuNction"
+    "description": "Named-Async-Function"
   },
   "const name = async () => new Promise((resolve) => { })": {
-    "prefix": "nafnp",
+    "prefix": ".nafp",
     "body": [
       "const ${1:name} = async ($2) => new Promise((resolve) => {",
       "\t$0",
       "})"
     ],
-    "description": "Named-Async-FuNction-with-Promise"
+    "description": "Named-Async-Function-with-Promise"
   },
   "const name = async () => { }": {
-    "prefix": "nafnb",
+    "prefix": ".nafb",
     "body": ["const ${1:name} = async ($2) => {", "\t$0", "}"],
-    "description": "Named-Async-FuNction-with-Body"
+    "description": "Named-Async-Function-with-Body"
   },
 
   "return ": {
-    "prefix": "re",
+    "prefix": ".re",
     "body": ["return $0"],
     "description": "REturn"
   },
 
   "return { }": {
-    "prefix": "reb",
+    "prefix": ".reb",
     "body": ["return { $0 }"],
     "description": "REturn-with-Body"
   },
 
   "import { } from \"module\"": {
-    "prefix": "im",
+    "prefix": ".im",
     "body": ["import { $2 } from \"${1:module}\""],
     "description": "IMport"
   },
   "import module from \"module\"": {
-    "prefix": "imd",
+    "prefix": ".imd",
     "body": ["import ${2:module} from \"${1:module}\""],
     "description": "IMport-Default"
   },
 
   "export ": {
-    "prefix": "ex",
+    "prefix": ".ex",
     "body": ["export $0"],
     "description": "EXport"
   },
   "export default ": {
-    "prefix": "exd",
+    "prefix": ".exd",
     "body": ["export default $0"],
     "description": "EXport-DEfault"
   },
   "export const name = ": {
-    "prefix": "exn",
+    "prefix": ".exn",
     "body": ["export const ${1:name} = $0"],
     "description": "EXport-Named"
   },
 
   "console.log()": {
-    "prefix": "clg",
+    "prefix": ".cl",
     "body": ["console.log(${1:message})"],
-    "description": "Console-LoG"
+    "description": "Console-Log"
   }
 }

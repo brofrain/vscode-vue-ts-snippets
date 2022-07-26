@@ -1,26 +1,26 @@
 // TS only
 {
   "async () => new Promise<>((resolve) => { })": {
-    "prefix": "afnpt",
+    "prefix": ".afpt",
     "body": [
       "async ($1) => new Promise<${2:void}>((resolve) => {",
       "\t$0",
       "})"
     ],
-    "description": "Async-FuNction-with-Promise-and-Type"
+    "description": "Async-Function-with-Promise-and-Type"
   },
   "const name = async () => new Promise<>((resolve) => { })": {
-    "prefix": "nafnpt",
+    "prefix": ".nafpt",
     "body": [
       "const ${1:name} = async ($2) => new Promise<${3:void}>((resolve) => {",
       "\t$0",
       "})"
     ],
-    "description": "Named-Async-FuNction-with-Promise-and-Type"
+    "description": "Named-Async-Function-with-Promise-and-Type"
   },
 
   "Record<> ": {
-    "prefix": "rec",
+    "prefix": ".rec",
     "body": ["Record<${1:string}, ${2:string}>"],
     "description": "RECord"
   }

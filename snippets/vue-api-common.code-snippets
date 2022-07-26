@@ -1,12 +1,12 @@
 // Vue API (JS & TS)
 {
   "ref()": {
-    "prefix": "vr",
+    "prefix": ".r",
     "body": ["ref($1)"],
     "description": "Ref"
   },
   "const name = ref()": {
-    "prefix": "vnr",
+    "prefix": ".nr",
     "body": ["const ${1:name} = ref($2)"],
     "description": "Named-Ref"
   },
@@ -28,22 +28,22 @@
   },
 
   "computed(() => )": {
-    "prefix": "vc",
+    "prefix": ".c",
     "body": ["computed(() => $1)"],
     "description": "Computed"
   },
   "computed(() => { })": {
-    "prefix": "vcb",
+    "prefix": ".cb",
     "body": ["computed(() => {", "\t$0", "})"],
     "description": "Computed-with-Body"
   },
   "const name = computed(() => )": {
-    "prefix": "vnc",
+    "prefix": ".nc",
     "body": ["const ${1:name} = computed(() => $2)"],
     "description": "Named-Computed"
   },
   "const name = computed(() => { })": {
-    "prefix": "vncb",
+    "prefix": ".ncb",
     "body": ["const ${1:name} = computed(() => {", "\t$0", "})"],
     "description": "Named-Computed-with-Body"
   },
@@ -82,7 +82,7 @@
   },
 
   "export const useStore = defineStore(\"store\", () => { })": {
-    "prefix": "vstore",
+    "prefix": ".pstore",
     "body": [
       "import { defineStore } from \"pinia\"",
       "",
@@ -96,7 +96,7 @@
   },
 
   "(SSR) export const useStore = defineStore(\"store\", () => { })": {
-    "prefix": "vstoress",
+    "prefix": ".pstoress",
     "body": [
       "import { acceptHMRUpdate, defineStore } from \"pinia\"",
       "",
@@ -114,7 +114,7 @@
   },
 
   "($) export const useStore = defineStore(\"store\", () => { })": {
-    "prefix": "$store",
+    "prefix": "$pstore",
     "body": [
       "import { defineStore } from \"pinia\"",
       "",
@@ -128,7 +128,7 @@
   },
 
   "($) (SSR) export const useStore = defineStore(\"store\", () => { })": {
-    "prefix": "$storess",
+    "prefix": "$pstoress",
     "body": [
       "import { acceptHMRUpdate, defineStore } from \"pinia\"",
       "",

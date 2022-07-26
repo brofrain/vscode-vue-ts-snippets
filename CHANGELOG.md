@@ -1,3 +1,11 @@
+## v0.1.0
+
+- precede all non-macro triggers with dot to clean up suggestion list while typing
+- revert `clg` to `cl` (now `.cl` actually)
+- change `fn` to `.f` and propagate this cut in all function-like snippets
+- remove `v` prefix from all non-macro Composition API snippets
+- add `p` prefix for Pinia stores
+
 ## v0.0.9
 
 - change `console.log()` snippet trigger from `cl` to `clg`
